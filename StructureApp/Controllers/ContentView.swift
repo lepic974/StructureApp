@@ -11,6 +11,11 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .foregroundColor(.black)
+            .toolbar {
+                Image(systemName: "person")
+            }
+
     }
 }
 
