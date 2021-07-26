@@ -23,6 +23,11 @@
 		53C7A95526AE87A8006A2D28 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A95426AE87A8006A2D28 /* SignInViewController.swift */; };
 		53C7A95726AE87C4006A2D28 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A95626AE87C4006A2D28 /* SignUpViewController.swift */; };
 		53C7A95926AE8855006A2D28 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A95826AE8855006A2D28 /* OnboardingViewController.swift */; };
+		53C7A95B26AE9D3A006A2D28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53C7A95A26AE9D3A006A2D28 /* GoogleService-Info.plist */; };
+		53C7A95E26AEA5FE006A2D28 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A95D26AEA5FE006A2D28 /* DatabaseManager.swift */; };
+		53C7A96026AEA7FA006A2D28 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A95F26AEA7FA006A2D28 /* AuthManager.swift */; };
+		53C7A96226AEA8C4006A2D28 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A96126AEA8C4006A2D28 /* StorageManager.swift */; };
+		53C7A96426AEB35A006A2D28 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A96326AEB35A006A2D28 /* Extentions.swift */; };
 		53DF9C9126ADBD26005E5E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DF9C9026ADBD26005E5E80 /* AppDelegate.swift */; };
 		53DF9C9326ADBD26005E5E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DF9C9226ADBD26005E5E80 /* SceneDelegate.swift */; };
 		53DF9C9526ADBD26005E5E80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DF9C9426ADBD26005E5E80 /* ContentView.swift */; };
@@ -50,6 +55,11 @@
 		53C7A95426AE87A8006A2D28 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		53C7A95626AE87C4006A2D28 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		53C7A95826AE8855006A2D28 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		53C7A95A26AE9D3A006A2D28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53C7A95D26AEA5FE006A2D28 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		53C7A95F26AEA7FA006A2D28 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		53C7A96126AEA8C4006A2D28 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		53C7A96326AEB35A006A2D28 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		53DF9C8D26ADBD26005E5E80 /* StructureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StructureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DF9C9026ADBD26005E5E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53DF9C9226ADBD26005E5E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				53C7A94226AE7A45006A2D28 /* Onboarding */,
+				53C7A95C26AEA2FC006A2D28 /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -130,6 +141,21 @@
 				53DF9CA426ADF176005E5E80 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		53C7A95C26AEA2FC006A2D28 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				53C7A94326AE7A79006A2D28 /* PostViewController.swift */,
+				53C7A94526AE7AA2006A2D28 /* EditProfileViewController.swift */,
+				53C7A94726AE7AC6006A2D28 /* SettingsViewController.swift */,
+				53C7A94926AE7AEE006A2D28 /* ListViewController.swift */,
+				53C7A94B26AE7B0E006A2D28 /* SearchViewController.swift */,
+				53C7A94D26AE7B30006A2D28 /* SearchResultViewController.swift */,
+				53C7A94F26AE7B5A006A2D28 /* PostEditorViewController.swift */,
+				53C7A95126AE7B8C006A2D28 /* PublishViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		53DF9C8426ADBD25005E5E80 = {
@@ -182,14 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				53DF9C9426ADBD26005E5E80 /* ContentView.swift */,
-				53C7A94326AE7A79006A2D28 /* PostViewController.swift */,
-				53C7A94526AE7AA2006A2D28 /* EditProfileViewController.swift */,
-				53C7A94726AE7AC6006A2D28 /* SettingsViewController.swift */,
-				53C7A94926AE7AEE006A2D28 /* ListViewController.swift */,
-				53C7A94B26AE7B0E006A2D28 /* SearchViewController.swift */,
-				53C7A94D26AE7B30006A2D28 /* SearchResultViewController.swift */,
-				53C7A94F26AE7B5A006A2D28 /* PostEditorViewController.swift */,
-				53C7A95126AE7B8C006A2D28 /* PublishViewController.swift */,
 				53C7A94026AE7A1A006A2D28 /* Core Tabs */,
 				53C7A94126AE7A32006A2D28 /* Other */,
 			);
@@ -210,6 +228,11 @@
 			children = (
 				53DF9C9026ADBD26005E5E80 /* AppDelegate.swift */,
 				53DF9C9226ADBD26005E5E80 /* SceneDelegate.swift */,
+				53C7A95A26AE9D3A006A2D28 /* GoogleService-Info.plist */,
+				53C7A95D26AEA5FE006A2D28 /* DatabaseManager.swift */,
+				53C7A95F26AEA7FA006A2D28 /* AuthManager.swift */,
+				53C7A96126AEA8C4006A2D28 /* StorageManager.swift */,
+				53C7A96326AEB35A006A2D28 /* Extentions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -275,6 +298,7 @@
 			files = (
 				53DF9C9D26ADBD2C005E5E80 /* LaunchScreen.storyboard in Resources */,
 				53DF9C9A26ADBD2C005E5E80 /* Preview Assets.xcassets in Resources */,
+				53C7A95B26AE9D3A006A2D28 /* GoogleService-Info.plist in Resources */,
 				53DF9C9726ADBD2C005E5E80 /* Assets.xcassets in Resources */,
 				53DF9CA526ADF176005E5E80 /* Main.storyboard in Resources */,
 			);
@@ -330,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C7A94426AE7A79006A2D28 /* PostViewController.swift in Sources */,
+				53C7A96026AEA7FA006A2D28 /* AuthManager.swift in Sources */,
 				53DF9C9126ADBD26005E5E80 /* AppDelegate.swift in Sources */,
 				53C7A94A26AE7AEE006A2D28 /* ListViewController.swift in Sources */,
 				53C7A94826AE7AC6006A2D28 /* SettingsViewController.swift in Sources */,
@@ -341,12 +366,15 @@
 				53C7A95526AE87A8006A2D28 /* SignInViewController.swift in Sources */,
 				53DF9C9526ADBD26005E5E80 /* ContentView.swift in Sources */,
 				53C7A94E26AE7B30006A2D28 /* SearchResultViewController.swift in Sources */,
+				53C7A96226AEA8C4006A2D28 /* StorageManager.swift in Sources */,
+				53C7A95E26AEA5FE006A2D28 /* DatabaseManager.swift in Sources */,
 				53C7A94C26AE7B0E006A2D28 /* SearchViewController.swift in Sources */,
 				53C7A93726AE79A6006A2D28 /* HomeViewController.swift in Sources */,
 				53C7A95026AE7B5A006A2D28 /* PostEditorViewController.swift in Sources */,
 				53C7A95226AE7B8C006A2D28 /* PublishViewController.swift in Sources */,
 				53C7A93F26AE7A05006A2D28 /* ProfileViewController.swift in Sources */,
 				53C7A94626AE7AA2006A2D28 /* EditProfileViewController.swift in Sources */,
+				53C7A96426AEB35A006A2D28 /* Extentions.swift in Sources */,
 				53C7A93B26AE79D6006A2D28 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +520,7 @@
 				DEVELOPMENT_TEAM = 5VKN4M63HG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = StructureApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,6 +543,7 @@
 				DEVELOPMENT_TEAM = 5VKN4M63HG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = StructureApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
