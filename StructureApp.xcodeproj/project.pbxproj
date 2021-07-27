@@ -158,6 +158,13 @@
 			path = General;
 			sourceTree = "<group>";
 		};
+		53C7A96526B001C7006A2D28 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		53DF9C8426ADBD25005E5E80 = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +224,7 @@
 		53DF9CA826ADF1E3005E5E80 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				53C7A96526B001C7006A2D28 /* Cells */,
 				53C7A95326AE7E2D006A2D28 /* Storyboards */,
 				53DF9C9626ADBD2C005E5E80 /* Assets.xcassets */,
 			);

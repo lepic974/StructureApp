@@ -216,8 +216,10 @@ class SignInViewController: UIViewController {
     }
     
     @objc private func didTapCreateAccountButton() {
-        let vc = SignInViewController()
-        present(vc, animated: true)
+        let vc = SignUpViewController()
+        
+        vc.title = "Create Account"
+        present(UINavigationController(rootViewController: vc), animated: true)
     }
 
 }
